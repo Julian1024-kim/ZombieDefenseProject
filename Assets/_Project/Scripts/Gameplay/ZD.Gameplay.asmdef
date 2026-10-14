@@ -1,0 +1,19 @@
+{
+    "name": "ZD.Gameplay",
+    "rootNamespace": "ZD.Gameplay",
+    "references": [
+        "ZD.Core",
+        "MessagePipe",
+        "VContainer",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

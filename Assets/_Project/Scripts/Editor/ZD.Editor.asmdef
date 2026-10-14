@@ -1,0 +1,34 @@
+{
+    "name": "ZD.Editor",
+    "rootNamespace": "ZD.Editor",
+    "references": [
+        "ZD.Core",
+        "ZD.Gameplay",
+        "ZD.Network",
+        "ZD.Presentation",
+        "ZD.Bootstrap",
+        "Fusion.Unity",
+        "VContainer",
+        "Unity.AI.Navigation",
+        "Unity.AI.Navigation.Editor",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "Unity.InputSystem",
+        "Unity.Addressables",
+        "Unity.Addressables.Editor",
+        "Unity.RenderPipelines.Universal.Runtime",
+        "Unity.RenderPipelines.Core.Runtime",
+        "Unity.RenderPipelines.GPUDriven.Runtime"
+    ],
+    "includePlatforms": [
+        "Editor"
+    ],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

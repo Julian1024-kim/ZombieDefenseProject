@@ -1,0 +1,23 @@
+{
+    "name": "ZD.Presentation",
+    "rootNamespace": "ZD.Presentation",
+    "references": [
+        "ZD.Core",
+        "ZD.Gameplay",
+        "VContainer",
+        "UniTask",
+        "Unity.InputSystem",
+        "Unity.TextMeshPro",
+        "UnityEngine.UI",
+        "MessagePipe"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

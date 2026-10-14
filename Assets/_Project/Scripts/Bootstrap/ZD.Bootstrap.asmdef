@@ -1,0 +1,24 @@
+{
+    "name": "ZD.Bootstrap",
+    "rootNamespace": "ZD.Bootstrap",
+    "references": [
+        "ZD.Core",
+        "ZD.Gameplay",
+        "ZD.Network",
+        "ZD.Presentation",
+        "VContainer",
+        "MessagePipe",
+        "MessagePipe.VContainer",
+        "UniTask",
+        "Fusion.Unity"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

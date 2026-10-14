@@ -1,0 +1,21 @@
+{
+    "name": "ZD.Network",
+    "rootNamespace": "ZD.Network",
+    "references": [
+        "ZD.Core",
+        "ZD.Gameplay",
+        "Fusion.Unity",
+        "VContainer",
+        "MessagePipe",
+        "UniTask"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": true,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

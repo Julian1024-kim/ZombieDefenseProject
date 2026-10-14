@@ -104,3 +104,41 @@ InitTestScene*.unity*
 
 # Auto-generated cache in Assets folder
 /[Aa]ssets/[Ss]ceneDependencyCache*
+
+# ===== Project specific =====
+# Photon Fusion SDK is imported by each developer (see README), not redistributed.
+# Only the project's network config is tracked. PhotonAppSettings (App ID) stays ignored.
+/[Aa]ssets/Photon/*
+/[Aa]ssets/Photon.meta
+!/[Aa]ssets/Photon/Fusion/
+/[Aa]ssets/Photon/Fusion/*
+!/[Aa]ssets/Photon/Fusion/Resources/
+/[Aa]ssets/Photon/Fusion/Resources/*
+!/[Aa]ssets/Photon/Fusion/Resources/NetworkProjectConfig.fusion
+!/[Aa]ssets/Photon/Fusion/Resources/NetworkProjectConfig.fusion.meta
+# Fusion generated project files
+/Fusion.Unity*.csproj
+/Unity.Fusion.CodeGen.csproj
+
+# NuGet packages (R3) are restored by NuGetForUnity from Assets/packages.config
+/[Aa]ssets/[Pp]ackages/
+/[Aa]ssets/[Pp]ackages.meta
+
+# Local MCP config
+.mcp.json
+
+# Project readme is kept locally only
+/README.md
+
+# Mixamo characters and animations: free to ship inside the game, but the raw files may not be redistributed.
+# Each developer downloads them into this folder (see Docs).
+/[Aa]ssets/_Project/Art/Mixamo/
+/[Aa]ssets/_Project/Art/Mixamo.meta
+
+# Asset Store assets (weapons, barricades, mine): shipped inside the game, raw files may not be redistributed.
+# Each developer imports them from the Asset Store into this folder (see the design doc for the list).
+/[Aa]ssets/_Project/Art/ThirdParty/
+/[Aa]ssets/_Project/Art/ThirdParty.meta
+
+# Personal editor settings
+.vscode/
