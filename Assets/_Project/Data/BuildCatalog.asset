@@ -1,0 +1,29 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2b07f9dbf7555964f9c59cd6b9af47c9, type: 3}
+  m_Name: BuildCatalog
+  m_EditorClassIdentifier: ZD.Gameplay::ZD.Gameplay.Building.BuildCatalog
+  _items:
+  - {fileID: 11400000, guid: 86e90efd586c2cc4bacaf364741d65f4, type: 2}
+  - {fileID: 11400000, guid: de3cdde2479fe0b41831ace9e25dd58d, type: 2}
+  - {fileID: 11400000, guid: c03500fa391833b46a962eceebe3ec7d, type: 2}
+  - {fileID: 11400000, guid: 9188a203245398c4d95c78930467fc8a, type: 2}
+  _maxPlaceDistance: 4
+  _maxSlopeDegrees: 20
+  _installSeconds: 3
+  _cancelMoveDistance: 0.3
+  _groundMask:
+    serializedVersion: 2
+    m_Bits: 2049
+  _blockingMask:
+    serializedVersion: 2
+    m_Bits: 6912

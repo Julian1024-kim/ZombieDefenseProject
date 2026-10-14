@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2807bb67cc9a86943a99db7f1d68994f, type: 3}
+  m_Name: BD_Barricade
+  m_EditorClassIdentifier: ZD.Gameplay::ZD.Gameplay.Building.BarricadeDefinition
+  _displayName: Barricade
+  _kind: 0
+  _price: 300
+  _size: {x: 3.102713, y: 1.4942052, z: 0.7595949}
+  _maxHealth: 300
+  _triggerRadius: 0
+  _effectRadius: 0
+  _trapDamage: 0
+  _holdSeconds: 0
+  _uses: 0

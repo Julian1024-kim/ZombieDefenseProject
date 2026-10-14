@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: b6e9a7248e2353f408bbfc862fef212b, type: 3}
+  m_Name: WD_Shotgun
+  m_EditorClassIdentifier: ZD.Gameplay::ZD.Gameplay.Weapons.WeaponDefinition
+  _displayName: Shotgun
+  _category: 0
+  _behaviorType: 2
+  _damage: 14
+  _shotsPerSecond: 1.2
+  _isAutomatic: 0
+  _range: 25
+  _allowsHeadshot: 1
+  _headshotMultiplier: 1.5
+  _magazineSize: 8
+  _startingReserveAmmo: 16
+  _reloadSeconds: 2.5
+  _meleeRadius: 0.8
+  _maxMeleeTargets: 3
+  _pelletCount: 8
+  _spreadDegrees: 6

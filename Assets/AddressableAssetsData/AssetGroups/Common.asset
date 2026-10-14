@@ -1,0 +1,63 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bbb281ee3bf0b054c82ac2347e9e782c, type: 3}
+  m_Name: Common
+  m_EditorClassIdentifier: Unity.Addressables.Editor::UnityEditor.AddressableAssets.Settings.AddressableAssetGroup
+  m_GroupName: Common
+  m_GUID: 15017e81024014d41be267aed7a89f50
+  m_SerializeEntries:
+  - m_GUID: 0d17db12e40ff504f9c5fc933ca59075
+    m_Address: Prefabs/GameDirector
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5810dce00b43aaf4b9eb7000bd1e8149
+    m_Address: Prefabs/Player
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 5df03429b3291fc418653e09972f30dc
+    m_Address: Prefabs/Base
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: 6db017136c6d089498aded2146e8cf23
+    m_Address: Prefabs/Trap_BearTrap
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ca87b61c62982e546a992b97f0f154d7
+    m_Address: Prefabs/Barricade_Wood
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ddbcef2ff9c35cb44b30ba86eff78960
+    m_Address: Prefabs/Barricade_Concrete
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  - m_GUID: ef9131a950b98ce4e8dd96ccce8362b8
+    m_Address: Prefabs/Trap_Mine
+    m_ReadOnly: 0
+    m_SerializedLabels: []
+    FlaggedDuringContentUpdateRestriction: 0
+  m_ReadOnly: 0
+  m_Settings: {fileID: 11400000, guid: aa16e042328561d4d8528df67be095b7, type: 2}
+  m_SchemaSet:
+    m_Schemas:
+    - {fileID: 11400000, guid: 9f5bbd2de746d2546b081f68f5219547, type: 2}
+    - {fileID: 11400000, guid: f33a67f2d5e1d364592516efdc818f4b, type: 2}
+    m_SchemaDisplayOrder:
+    - Common_BundledAssetGroupSchema
+    - Common_ContentUpdateGroupSchema
+  m_IncludeInBuild: 1
+  m_IncludeInBuildMigrated: 1

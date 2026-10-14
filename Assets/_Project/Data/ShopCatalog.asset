@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57f072306489db43be1445c6ff31f44, type: 3}
+  m_Name: ShopCatalog
+  m_EditorClassIdentifier: ZD.Gameplay::ZD.Gameplay.Economy.ShopCatalog
+  _items:
+  - _displayName: Shotgun
+    _kind: 0
+    _weapon: {fileID: 11400000, guid: 6ee64ac1f16d79840895a2ddf3dda3b4, type: 2}
+    _price: 1000
+    _amount: 0
+  - _displayName: Assault Rifle
+    _kind: 0
+    _weapon: {fileID: 11400000, guid: 79b63002bdcd0d046b31ee62ec424fca, type: 2}
+    _price: 1500
+    _amount: 0
+  - _displayName: Pistol Ammo (2 mags)
+    _kind: 1
+    _weapon: {fileID: 11400000, guid: 71dc1b784e3d8964083039f0e347bfb0, type: 2}
+    _price: 100
+    _amount: 24
+  - _displayName: Rifle Ammo (2 mags)
+    _kind: 1
+    _weapon: {fileID: 11400000, guid: 79b63002bdcd0d046b31ee62ec424fca, type: 2}
+    _price: 300
+    _amount: 60
+  - _displayName: Shotgun Shells (16)
+    _kind: 1
+    _weapon: {fileID: 11400000, guid: 6ee64ac1f16d79840895a2ddf3dda3b4, type: 2}
+    _price: 300
+    _amount: 16
+  - _displayName: Health Kit
+    _kind: 2
+    _weapon: {fileID: 0}
+    _price: 600
+    _amount: 0
+  _interactRange: 2.5

@@ -1,0 +1,24 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2807bb67cc9a86943a99db7f1d68994f, type: 3}
+  m_Name: BD_Mine
+  m_EditorClassIdentifier: ZD.Gameplay::ZD.Gameplay.Building.BarricadeDefinition
+  _displayName: Mine
+  _kind: 1
+  _price: 500
+  _size: {x: 0.44840062, y: 0.4106199, z: 0.17314751}
+  _maxHealth: 1
+  _triggerRadius: 0.8
+  _effectRadius: 3
+  _trapDamage: 150
+  _holdSeconds: 0
+  _uses: 1
